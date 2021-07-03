@@ -23,7 +23,8 @@ def date_list(days):
     dates = []
     for day in range(days):
         d = today - timedelta(days=day)
-        dates.append(datetime.combine(d, random_time()))
+        for i in range(randint(1, 10)):
+            dates.append(datetime.combine(d, random_time()))
     return dates
 
 def make_commits(days):
