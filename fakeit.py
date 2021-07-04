@@ -38,4 +38,6 @@ def make_commits(days):
         repo.index.commit(str(uuid()))
 
 if __name__ == "__main__":
-    make_commits(5)
+    # total number of days 
+    days = 5
+    make_commits(days)
