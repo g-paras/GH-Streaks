@@ -1,4 +1,4 @@
-<h1 align="center">GH Streaks :fire:</h1>
+<h1 align="center">GitHhub Streaks :fire:</h1>
 <p align="center">Your amazing GitHub contribution graph is just a few clicks away</p>
 
 <p align="center">
